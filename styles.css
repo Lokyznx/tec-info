@@ -1,0 +1,15 @@
+/* Definindo uma fonte personalizada, caso você tenha baixado uma fonte localmente */
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('./fonts/Minecraft.ttf') format('truetype');
+}
+
+/* Corpo da página com a fonte e cor padrão */
+body {
+    font-family: 'MinhaFonte', sans-serif;
+    background-color: #f4f4f4;  /* Fundo cinza claro */
+    margin: 0;
+    padding: 0;
+    color: #333;  /* Cor do texto */
+    line-height: 1.6;
+}
