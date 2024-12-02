@@ -13,3 +13,41 @@ body {
     color: #333;  /* Cor do texto */
     line-height: 1.6;
 }
+
+/* Estilo do título h1 */
+h1 {
+    font-family: 'MinhaFonte', sans-serif;
+    color: #ff0000;  /* Cor vermelha para o título */
+    text-align: center;  /* Alinhar o título ao centro */
+    margin-top: 20px;
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 1.2em;  /* Tamanho do texto um pouco maior */
+    margin: 20px auto;
+    width: 80%;  /* Definir a largura do parágrafo */
+    text-align: justify;  /* Justificar o texto */
+}
+
+/* Estilo para a lista */
+ul {
+    list-style-type: none;  /* Retirar os pontos de lista */
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    background-color: #e0e0e0;  /* Fundo cinza claro */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;  /* Bordas arredondadas */
+}
+
+/* Estilo para a imagem */
+img {
+    display: block;  /* Para a imagem não ficar com espaços extras */
+    max-width: 100%;  /* Limitar a largura da imagem */
+    height: auto;
+    margin: 20px auto;
+}
